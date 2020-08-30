@@ -1,0 +1,20 @@
+{
+    "name": "steve",
+    "age": 20,
+    "isAlive": true,
+    "friends": ["john", "betty", "jake"],
+    "address": {
+        "street": "123 street",
+        "city": "slc"
+    }
+}
+
+{
+    "appetizers": ["Apricot Ricotta Honey Basil Bites", "Grilled Salmon Lemon Kebobs", "Shrimp Taco Bites"],
+    "coldSandwiches":["Cobb Salad Sub", "Dilly Chickpea Salad Sandwiches","Club Roll-Ups"],
+    "hotSandwiches":["Mojito Pulled Pork", "Philly Cheese Sandwiches", "Bistro Turkey Sandwich"],
+    "desserts":["Samoa Dessert Lasagna", "Birthday Cake","Oreo Truffles"],
+    "drinks":["Old Fashioned", "Margarita","Cosmopolitan"]
+}
+
+var ApricotRicottaHoneyBasilBites = {}
