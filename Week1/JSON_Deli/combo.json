@@ -1,20 +1,34 @@
 {
-    "name": "steve",
-    "age": 20,
-    "isAlive": true,
-    "friends": ["john", "betty", "jake"],
-    "address": {
-        "street": "123 street",
-        "city": "slc"
-    }
-}
+	"appetizers": ["Apricot Ricotta Honey Basil Bites", "Grilled Salmon Lemon Kebobs"],
+	"coldSandwiches": ["Cobb Salad Sub", "Dilly Chickpea Salad Sandwiches"],
+	"hotSandwiches": ["Mojito Pulled Pork", "Philly Cheese Sandwiches"],
+	"desserts": ["Samoa Dessert Lasagna", "Birthday Cake"],
+	"drinks": ["Old Fashioned", "Margarita"],
 
-{
-    "appetizers": ["Apricot Ricotta Honey Basil Bites", "Grilled Salmon Lemon Kebobs", "Shrimp Taco Bites"],
-    "coldSandwiches":["Cobb Salad Sub", "Dilly Chickpea Salad Sandwiches","Club Roll-Ups"],
-    "hotSandwiches":["Mojito Pulled Pork", "Philly Cheese Sandwiches", "Bistro Turkey Sandwich"],
-    "desserts":["Samoa Dessert Lasagna", "Birthday Cake","Oreo Truffles"],
-    "drinks":["Old Fashioned", "Margarita","Cosmopolitan"]
-}
+	"appetizersRecipe": {
+		"ApricotRicottaHoneyBasilBites": ["4 apricots, seeded and cut into halves.5 cup ricotta cheese 1 Tbsp.honey Fresh basil, finely chopped Sea salt Balsamic Glaze "],
+		"GrilledSalmonLemonKebobs": ["2 tbsp chopped fresh oregano 2 tsp sesame seeds 1 tsp ground cumin 1/4 tsp crushed red pepper flakes 1-1/2 pounds skinless wild salmon fillet, cut into 1-inch pieces 2 lemons, very thinly sliced into rounds olive oil cooking spray 1 tsp kosher salt 16 bamboo skewers soaked in water 1 hour"]
+    },
+    
+	"coldSandwichesRecipe": {
+		"CobbSaladSub": ["1 loaf (1 pound) unsliced Italian bread 1/2 cup balsamic vinaigrette or dressing of your choice 5 ounces fresh baby spinach (about 6 cups) 1-1/2 pounds sliced deli ham"],
+		"DillyChickpeaSaladSandwiches": ["1 can (15 ounces) garbanzo beans or chickpeas, rinsed and drained 1/2 cup finely chopped onion 1/2 cup finely chopped celery 1/2 cup reduced-fat mayonnaise or vegan mayonnaise 3 tablespoons honey mustard or Dijon mustard 2 tablespoons snipped fresh dill"]
+    },
+    
+	"hotSandwichesRecipe": {
+		"MojitoPulledPork": ["1 boneless pork shoulder roast (4 to 5 pounds) 2 teaspoons salt 2 teaspoons each oregano, ground cumin, paprika and pepper 1 bunch fresh cilantro, divided 2 medium onions, halved and sliced 1/4 cup canned chopped green chiles"],
+		"PhillyCheeseSandwiches": ["2 tbsp. extra-virgin olive oil, divided 2 green peppers, thinly sliced 2 red peppers, thinly sliced 1 large yellow onion, sliced Kosher salt 1 1/2 lb. sirloin steak, thinly sliced Freshly ground black pepper 8 slices provolone4 hoagie rolls"]
+    },
+    
+	"dessertsRecipe": {
+		"SamoaDessertLasagna": ["1 1/2 c. crushed Nilla wafers 1/2 c. toasted shredded coconut 6 tbsp. melted butter"],
+		"BirthdayCake": ["Soft, light crumb from cake flour Fluffy from extra egg whites Buttery and cakey from creamed butter Stick-to-your-fork moist from eggs & buttermilk Extra flavor from pure vanilla extract"]
+    },
+    
+	"drinksRecipe": {
 
-var ApricotRicottaHoneyBasilBites = {}
+		"OldFashioned": ["1/2 teaspoon sugar 3 dashes Angostura bitters 1 teaspoon water 2 ounces bourbon Garnish: orange peel"],
+		"Margarita": ["2 oz Blanco tequila 1 oz Fresh lime juice 1/2 oz Orange liqueur 1/2 oz Agave syrup Garnish: Lime wheel Garnish: Kosher salt"]
+
+	}
+}
