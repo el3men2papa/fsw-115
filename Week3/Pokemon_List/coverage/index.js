@@ -1,6 +1,5 @@
 
-
-  const xhr = new XMLHttpRequest()
+const xhr = new XMLHttpRequest()
 
 xhr.open("GET", "https://pokeapi.co/api/v2/pokemon?limit=100&offset=200", true)
 xhr.send()
@@ -21,5 +20,3 @@ function iputResults(arr){
             document.body.appendChild(h3)
         }
 }  
-
-
