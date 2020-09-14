@@ -1,5 +1,5 @@
 
-var starWars = `{
+var films = `{
     "response_code": 0,
     "results": [
         {
@@ -40,8 +40,8 @@ var starWars = `{
 }`
 
 
-for(var i = 0; i < starWars.length ; i ++){
-    var jason = JSON.parse(starWars)
+for(var i = 0; i < films.length ; i ++){
+    var jason = JSON.parse(films)
 
     var list = document.createElement("li")
 var test = document.getElementById("test")
