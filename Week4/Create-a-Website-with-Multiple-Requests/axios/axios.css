@@ -1,0 +1,13 @@
+.color{
+    color: darkblue;
+}
+
+@media only screen and (max-width: 800px) {
+
+.color{
+text-align: center;
+}
+.btns {
+    text-align: center;
+}
+}
